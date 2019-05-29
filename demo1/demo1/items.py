@@ -8,7 +8,11 @@
 import scrapy
 
 
-class Demo1Item(scrapy.Item):
+class FangItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    title = scrapy.Field()
+    address = scrapy.Field()
+    time = scrapy.Field()
+    click = scrapy.Field()
+    price = scrapy.Field()
+

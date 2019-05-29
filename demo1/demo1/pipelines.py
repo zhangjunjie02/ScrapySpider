@@ -8,4 +8,5 @@
 
 class Demo1Pipeline(object):
     def process_item(self, item, spider):
+        print("+"*70)
         return item
